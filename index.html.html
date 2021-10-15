@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+ <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+ <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+ <script src="Map.js"></script>
+ <script src="BubbleChart.js"></script>
+ <script src="BeerDonut.js"></script>
+ <script src="SpiritDonut.js"></script>
+ <script src="WineDonut.js"></script>
+ <script src="StackedBarChart.js"></script>
+
+ <title>Alcohol: its Consumption and Effects </title>
+ <link rel="stylesheet" href="Visualisation2.css">
+ </head>
+
+    <div class= "padding">
+        <body>
+            <h1 >Alcohol: its Consumption and Effects Globally</h1>
+
+            <h2 >There is no question that alcohol has been around for a long time and with it comes the discussion of what a healthy consumption is.
+                Every country and culture around the world will have their own views on drinking and while it is more common for some countries such as Italy or Russia for people
+                to start drinking when they are younger, it is more frowned upon in others such as Yemen and Pakistan.
+                 </h2>
+
+            <div class= "top">
+                <div id="map">
+                </div>
+
+                <p id="mapdesc">
+                This chloropleth map shows the estimated average consumption of alcohol by adults (aged 15+) for one year. The country with the highest consumption rate is Moldova at
+                23.01 litres followed by Russia and several countried in the Eastern European areas. 
+                There are some countries where data is not available such as Congo and the United States of America which are marked as grey areas.
+                </p>
+
+                <div id="stackedchart">
+                </div>
+
+                <div class= "donuts">
+                    <div id="beerdonut">
+                    </div>
+    
+                    <div id="winedonut">
+                    </div>
+    
+                    <div id="spiritdonut">
+                    </div>
+                </div>
+
+                <p id="middesc">
+                    This chloropleth map shows the estimated average consumption of alcohol by adults (aged 15+) for one year. The country with the highest consumption rate is Moldova at
+                    23.01 litres followed by Russia and several countried in the Eastern European areas. 
+                    There are some countries where data is not available such as Congo and the United States of America which are marked as grey areas.
+                    </p>
+
+                <div id="plot">
+                </div>
+
+                <p id="plotdesc">
+                    The bubble chart 
+                </p>
+
+            </div>
+
+            
+
+        </body>
+    </div>
+ </html>
