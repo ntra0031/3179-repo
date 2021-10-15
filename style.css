@@ -1,0 +1,101 @@
+.padding {
+  padding-top: 50px;
+  padding-right: 80px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+h1{
+    font-family: "Courier New", monospace;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 5px 5px 5px #3f77a5;
+}
+
+h2{
+    font-family: Arial;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;   
+    padding-top: 50px; 
+    padding-bottom: 50px;
+}
+
+#map {
+    padding-top: 50px; 
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: 0 0 15px rgb(63, 100, 156);
+}
+
+#mapdesc {
+    font-family: Helvetica, sans-serif;
+    padding-top: 50px; 
+    padding-bottom: 50px;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+#stackedchart{
+    padding-top: 50px; 
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#plotdesc {
+    font-family: Helvetica, sans-serif;
+    padding-top: 50px; 
+    padding-bottom: 50px;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+#plot {
+    padding-top: 50px; 
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: 0 0 15px rgb(63, 100, 156);
+}
+
+.donuts {
+    padding-top: 50px; 
+    padding-bottom: 50px;
+    justify-content: space-evenly;
+}
+
+#beerdonut {
+    float:left; 
+    width:33%;
+    height:280px;
+    padding-bottom: 50px;
+}
+#winedonut{
+    float:left; 
+    width:33%;
+    height:280px;
+    padding-bottom: 50px;
+}
+#spiritdonut{
+    float:right;
+    width:33%;
+    height:280px;
+    padding-bottom: 50px;
+}
+
+#middesc {
+    font-family: Helvetica, sans-serif;
+    padding-top: 50px; 
+    padding-bottom: 50px;
+    padding-left: 500px;
+    padding-right: 500px;
+}
