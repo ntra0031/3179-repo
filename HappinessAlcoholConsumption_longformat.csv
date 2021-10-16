@@ -1,0 +1,367 @@
+Country,Region,Hemisphere,HappinessScore,HDI,GDP_PerCapita,Drink_type,Servings
+Denmark,Western Europe,north,7.526,928,53.579,Beer_PerCapita,224
+Denmark,Western Europe,north,7.526,928,53.579,Spirit_PerCapita,81
+Denmark,Western Europe,north,7.526,928,53.579,Wine_PerCapita,278
+Switzerland,Western Europe,north,7.509,943,79.866,Beer_PerCapita,185
+Switzerland,Western Europe,north,7.509,943,79.866,Spirit_PerCapita,100
+Switzerland,Western Europe,north,7.509,943,79.866,Wine_PerCapita,280
+Iceland,Western Europe,north,7.501,933,60.53,Beer_PerCapita,233
+Iceland,Western Europe,north,7.501,933,60.53,Spirit_PerCapita,61
+Iceland,Western Europe,north,7.501,933,60.53,Wine_PerCapita,78
+Norway,Western Europe,north,7.498,951,70.89,Beer_PerCapita,169
+Norway,Western Europe,north,7.498,951,70.89,Spirit_PerCapita,71
+Norway,Western Europe,north,7.498,951,70.89,Wine_PerCapita,129
+Finland,Western Europe,north,7.413,918,43.433,Beer_PerCapita,263
+Finland,Western Europe,north,7.413,918,43.433,Spirit_PerCapita,133
+Finland,Western Europe,north,7.413,918,43.433,Wine_PerCapita,97
+Canada,North America,north,7.404,922,42.349,Beer_PerCapita,240
+Canada,North America,north,7.404,922,42.349,Spirit_PerCapita,122
+Canada,North America,north,7.404,922,42.349,Wine_PerCapita,100
+Netherlands,Western Europe,north,7.339,928,45.638,Beer_PerCapita,251
+Netherlands,Western Europe,north,7.339,928,45.638,Spirit_PerCapita,88
+Netherlands,Western Europe,north,7.339,928,45.638,Wine_PerCapita,190
+New Zealand,Australia and New Zealand,south,7.334,915,40.332,Beer_PerCapita,203
+New Zealand,Australia and New Zealand,south,7.334,915,40.332,Spirit_PerCapita,79
+New Zealand,Australia and New Zealand,south,7.334,915,40.332,Wine_PerCapita,175
+Australia,Australia and New Zealand,south,7.313,938,49.897,Beer_PerCapita,261
+Australia,Australia and New Zealand,south,7.313,938,49.897,Spirit_PerCapita,72
+Australia,Australia and New Zealand,south,7.313,938,49.897,Wine_PerCapita,212
+Sweden,Western Europe,north,7.291,932,51.845,Beer_PerCapita,152
+Sweden,Western Europe,north,7.291,932,51.845,Spirit_PerCapita,60
+Sweden,Western Europe,north,7.291,932,51.845,Wine_PerCapita,186
+Israel,Middle East and Northern Africa,north,7.267,902,37.181,Beer_PerCapita,63
+Israel,Middle East and Northern Africa,north,7.267,902,37.181,Spirit_PerCapita,69
+Israel,Middle East and Northern Africa,north,7.267,902,37.181,Wine_PerCapita,9
+Austria,Western Europe,north,7.119,906,44.731,Beer_PerCapita,279
+Austria,Western Europe,north,7.119,906,44.731,Spirit_PerCapita,75
+Austria,Western Europe,north,7.119,906,44.731,Wine_PerCapita,191
+United States,North America,north,7.104,922,57.589,Beer_PerCapita,249
+United States,North America,north,7.104,922,57.589,Spirit_PerCapita,158
+United States,North America,north,7.104,922,57.589,Wine_PerCapita,84
+Costa Rica,Latin America and Caribbean,north,7.087,791,11.733,Beer_PerCapita,149
+Costa Rica,Latin America and Caribbean,north,7.087,791,11.733,Spirit_PerCapita,87
+Costa Rica,Latin America and Caribbean,north,7.087,791,11.733,Wine_PerCapita,11
+Germany,Western Europe,north,6.994,934,42.233,Beer_PerCapita,346
+Germany,Western Europe,north,6.994,934,42.233,Spirit_PerCapita,117
+Germany,Western Europe,north,6.994,934,42.233,Wine_PerCapita,175
+Brazil,Latin America and Caribbean,both,6.952,758,8.639,Beer_PerCapita,245
+Brazil,Latin America and Caribbean,both,6.952,758,8.639,Spirit_PerCapita,145
+Brazil,Latin America and Caribbean,both,6.952,758,8.639,Wine_PerCapita,16
+Belgium,Western Europe,north,6.929,915,41.261,Beer_PerCapita,295
+Belgium,Western Europe,north,6.929,915,41.261,Spirit_PerCapita,84
+Belgium,Western Europe,north,6.929,915,41.261,Wine_PerCapita,212
+Ireland,Western Europe,north,6.907,934,64.1,Beer_PerCapita,313
+Ireland,Western Europe,north,6.907,934,64.1,Spirit_PerCapita,118
+Ireland,Western Europe,north,6.907,934,64.1,Wine_PerCapita,165
+Luxembourg,Western Europe,north,6.871,904,100.739,Beer_PerCapita,236
+Luxembourg,Western Europe,north,6.871,904,100.739,Spirit_PerCapita,133
+Luxembourg,Western Europe,north,6.871,904,100.739,Wine_PerCapita,271
+Mexico,Latin America and Caribbean,north,6.778,772,8.444,Beer_PerCapita,238
+Mexico,Latin America and Caribbean,north,6.778,772,8.444,Spirit_PerCapita,68
+Mexico,Latin America and Caribbean,north,6.778,772,8.444,Wine_PerCapita,5
+Singapore,Southeastern Asia,north,6.739,930,55.243,Beer_PerCapita,60
+Singapore,Southeastern Asia,north,6.739,930,55.243,Spirit_PerCapita,12
+Singapore,Southeastern Asia,north,6.739,930,55.243,Wine_PerCapita,11
+United Kingdom,Western Europe,north,6.725,920,40.412,Beer_PerCapita,219
+United Kingdom,Western Europe,north,6.725,920,40.412,Spirit_PerCapita,126
+United Kingdom,Western Europe,north,6.725,920,40.412,Wine_PerCapita,195
+Chile,Latin America and Caribbean,south,6.705,842,13.961,Beer_PerCapita,130
+Chile,Latin America and Caribbean,south,6.705,842,13.961,Spirit_PerCapita,124
+Chile,Latin America and Caribbean,south,6.705,842,13.961,Wine_PerCapita,172
+Panama,Latin America and Caribbean,north,6.701,785,14.333,Beer_PerCapita,285
+Panama,Latin America and Caribbean,north,6.701,785,14.333,Spirit_PerCapita,104
+Panama,Latin America and Caribbean,north,6.701,785,14.333,Wine_PerCapita,18
+Argentina,Latin America and Caribbean,south,6.65,822,12.654,Beer_PerCapita,193
+Argentina,Latin America and Caribbean,south,6.65,822,12.654,Spirit_PerCapita,25
+Argentina,Latin America and Caribbean,south,6.65,822,12.654,Wine_PerCapita,221
+Czech Republic,Central and Eastern Europe,north,6.596,885,18.484,Beer_PerCapita,361
+Czech Republic,Central and Eastern Europe,north,6.596,885,18.484,Spirit_PerCapita,170
+Czech Republic,Central and Eastern Europe,north,6.596,885,18.484,Wine_PerCapita,134
+United Arab Emirates,Middle East and Northern Africa,north,6.573,862,38.518,Beer_PerCapita,16
+United Arab Emirates,Middle East and Northern Africa,north,6.573,862,38.518,Spirit_PerCapita,135
+United Arab Emirates,Middle East and Northern Africa,north,6.573,862,38.518,Wine_PerCapita,5
+Uruguay,Latin America and Caribbean,south,6.545,802,15.298,Beer_PerCapita,115
+Uruguay,Latin America and Caribbean,south,6.545,802,15.298,Spirit_PerCapita,35
+Uruguay,Latin America and Caribbean,south,6.545,802,15.298,Wine_PerCapita,220
+Malta,Western Europe,north,6.488,875,24.771,Beer_PerCapita,149
+Malta,Western Europe,north,6.488,875,24.771,Spirit_PerCapita,100
+Malta,Western Europe,north,6.488,875,24.771,Wine_PerCapita,120
+Colombia,Latin America and Caribbean,both,6.481,747,5.757,Beer_PerCapita,159
+Colombia,Latin America and Caribbean,both,6.481,747,5.757,Spirit_PerCapita,76
+Colombia,Latin America and Caribbean,both,6.481,747,5.757,Wine_PerCapita,3
+France,Western Europe,north,6.478,899,36.87,Beer_PerCapita,127
+France,Western Europe,north,6.478,899,36.87,Spirit_PerCapita,151
+France,Western Europe,north,6.478,899,36.87,Wine_PerCapita,370
+Thailand,Southeastern Asia,north,6.474,748,5.979,Beer_PerCapita,99
+Thailand,Southeastern Asia,north,6.474,748,5.979,Spirit_PerCapita,258
+Thailand,Southeastern Asia,north,6.474,748,5.979,Wine_PerCapita,1
+Qatar,Middle East and Northern Africa,north,6.375,855,59.324,Beer_PerCapita,1
+Qatar,Middle East and Northern Africa,north,6.375,855,59.324,Spirit_PerCapita,42
+Qatar,Middle East and Northern Africa,north,6.375,855,59.324,Wine_PerCapita,7
+Spain,Western Europe,north,6.361,889,26.617,Beer_PerCapita,284
+Spain,Western Europe,north,6.361,889,26.617,Spirit_PerCapita,157
+Spain,Western Europe,north,6.361,889,26.617,Wine_PerCapita,112
+Guatemala,Latin America and Caribbean,north,6.324,649,4.141,Beer_PerCapita,53
+Guatemala,Latin America and Caribbean,north,6.324,649,4.141,Spirit_PerCapita,69
+Guatemala,Latin America and Caribbean,north,6.324,649,4.141,Wine_PerCapita,2
+Suriname,Latin America and Caribbean,north,6.269,719,5.871,Beer_PerCapita,128
+Suriname,Latin America and Caribbean,north,6.269,719,5.871,Spirit_PerCapita,178
+Suriname,Latin America and Caribbean,north,6.269,719,5.871,Wine_PerCapita,7
+Bahrain,Middle East and Northern Africa,north,6.218,846,22.561,Beer_PerCapita,42
+Bahrain,Middle East and Northern Africa,north,6.218,846,22.561,Spirit_PerCapita,63
+Bahrain,Middle East and Northern Africa,north,6.218,846,22.561,Wine_PerCapita,7
+Trinidad and Tobago,Latin America and Caribbean,north,6.168,785,16.352,Beer_PerCapita,197
+Trinidad and Tobago,Latin America and Caribbean,north,6.168,785,16.352,Spirit_PerCapita,156
+Trinidad and Tobago,Latin America and Caribbean,north,6.168,785,16.352,Wine_PerCapita,7
+Venezuela,Latin America and Caribbean,north,6.084,766,15.692,Beer_PerCapita,333
+Venezuela,Latin America and Caribbean,north,6.084,766,15.692,Spirit_PerCapita,100
+Venezuela,Latin America and Caribbean,north,6.084,766,15.692,Wine_PerCapita,3
+Slovakia,Central and Eastern Europe,north,6.078,853,16.53,Beer_PerCapita,196
+Slovakia,Central and Eastern Europe,north,6.078,853,16.53,Spirit_PerCapita,293
+Slovakia,Central and Eastern Europe,north,6.078,853,16.53,Wine_PerCapita,116
+El Salvador,Latin America and Caribbean,north,6.068,679,3.769,Beer_PerCapita,52
+El Salvador,Latin America and Caribbean,north,6.068,679,3.769,Spirit_PerCapita,69
+El Salvador,Latin America and Caribbean,north,6.068,679,3.769,Wine_PerCapita,2
+Nicaragua,Latin America and Caribbean,north,5.992,657,2.144,Beer_PerCapita,78
+Nicaragua,Latin America and Caribbean,north,5.992,657,2.144,Spirit_PerCapita,118
+Nicaragua,Latin America and Caribbean,north,5.992,657,2.144,Wine_PerCapita,1
+Uzbekistan,Central and Eastern Europe,north,5.987,703,2.106,Beer_PerCapita,25
+Uzbekistan,Central and Eastern Europe,north,5.987,703,2.106,Spirit_PerCapita,101
+Uzbekistan,Central and Eastern Europe,north,5.987,703,2.106,Wine_PerCapita,8
+Italy,Western Europe,north,5.977,878,30.669,Beer_PerCapita,85
+Italy,Western Europe,north,5.977,878,30.669,Spirit_PerCapita,42
+Italy,Western Europe,north,5.977,878,30.669,Wine_PerCapita,237
+Ecuador,Latin America and Caribbean,both,5.976,749,6.019,Beer_PerCapita,162
+Ecuador,Latin America and Caribbean,both,5.976,749,6.019,Spirit_PerCapita,74
+Ecuador,Latin America and Caribbean,both,5.976,749,6.019,Wine_PerCapita,3
+Belize,Latin America and Caribbean,north,5.956,709,4.96,Beer_PerCapita,263
+Belize,Latin America and Caribbean,north,5.956,709,4.96,Spirit_PerCapita,114
+Belize,Latin America and Caribbean,north,5.956,709,4.96,Wine_PerCapita,8
+Japan,Eastern Asia,noth,5.921,907,38.972,Beer_PerCapita,77
+Japan,Eastern Asia,noth,5.921,907,38.972,Spirit_PerCapita,202
+Japan,Eastern Asia,noth,5.921,907,38.972,Wine_PerCapita,16
+Kazakhstan,Central and Eastern Europe,north,5.919,797,7.715,Beer_PerCapita,124
+Kazakhstan,Central and Eastern Europe,north,5.919,797,7.715,Spirit_PerCapita,246
+Kazakhstan,Central and Eastern Europe,north,5.919,797,7.715,Wine_PerCapita,12
+Moldova,Central and Eastern Europe,north,5.897,697,1.913,Beer_PerCapita,109
+Moldova,Central and Eastern Europe,north,5.897,697,1.913,Spirit_PerCapita,226
+Moldova,Central and Eastern Europe,north,5.897,697,1.913,Wine_PerCapita,18
+Russian Federation,Central and Eastern Europe,north,5.856,815,8.748,Beer_PerCapita,247
+Russian Federation,Central and Eastern Europe,north,5.856,815,8.748,Spirit_PerCapita,326
+Russian Federation,Central and Eastern Europe,north,5.856,815,8.748,Wine_PerCapita,73
+Poland,Central and Eastern Europe,north,5.835,860,12.415,Beer_PerCapita,343
+Poland,Central and Eastern Europe,north,5.835,860,12.415,Spirit_PerCapita,215
+Poland,Central and Eastern Europe,north,5.835,860,12.415,Wine_PerCapita,56
+South Korea,Eastern Asia,noth,5.835,900,27.105,Beer_PerCapita,140
+South Korea,Eastern Asia,noth,5.835,900,27.105,Spirit_PerCapita,16
+South Korea,Eastern Asia,noth,5.835,900,27.105,Wine_PerCapita,9
+Bolivia,Latin America and Caribbean,south,5.822,689,3.117,Beer_PerCapita,167
+Bolivia,Latin America and Caribbean,south,5.822,689,3.117,Spirit_PerCapita,41
+Bolivia,Latin America and Caribbean,south,5.822,689,3.117,Wine_PerCapita,8
+Lithuania,Central and Eastern Europe,north,5.813,855,14.913,Beer_PerCapita,343
+Lithuania,Central and Eastern Europe,north,5.813,855,14.913,Spirit_PerCapita,244
+Lithuania,Central and Eastern Europe,north,5.813,855,14.913,Wine_PerCapita,56
+Belarus,Central and Eastern Europe,north,5.802,805,5.023,Beer_PerCapita,142
+Belarus,Central and Eastern Europe,north,5.802,805,5.023,Spirit_PerCapita,373
+Belarus,Central and Eastern Europe,north,5.802,805,5.023,Wine_PerCapita,42
+Slovenia,Central and Eastern Europe,north,5.768,894,21.65,Beer_PerCapita,270
+Slovenia,Central and Eastern Europe,north,5.768,894,21.65,Spirit_PerCapita,51
+Slovenia,Central and Eastern Europe,north,5.768,894,21.65,Wine_PerCapita,276
+Peru,Latin America and Caribbean,both,5.743,748,6.031,Beer_PerCapita,163
+Peru,Latin America and Caribbean,both,5.743,748,6.031,Spirit_PerCapita,160
+Peru,Latin America and Caribbean,both,5.743,748,6.031,Wine_PerCapita,21
+Turkmenistan,Central and Eastern Europe,north,5.658,705,6.389,Beer_PerCapita,19
+Turkmenistan,Central and Eastern Europe,north,5.658,705,6.389,Spirit_PerCapita,71
+Turkmenistan,Central and Eastern Europe,north,5.658,705,6.389,Wine_PerCapita,32
+Mauritius,Sub-Saharan Africa,north,5.648,788,9.682,Beer_PerCapita,98
+Mauritius,Sub-Saharan Africa,north,5.648,788,9.682,Spirit_PerCapita,31
+Mauritius,Sub-Saharan Africa,north,5.648,788,9.682,Wine_PerCapita,18
+Latvia,Central and Eastern Europe,north,5.56,844,14.07,Beer_PerCapita,281
+Latvia,Central and Eastern Europe,north,5.56,844,14.07,Spirit_PerCapita,216
+Latvia,Central and Eastern Europe,north,5.56,844,14.07,Wine_PerCapita,62
+Cyprus,Western Europe,north,5.546,867,23.541,Beer_PerCapita,192
+Cyprus,Western Europe,north,5.546,867,23.541,Spirit_PerCapita,154
+Cyprus,Western Europe,north,5.546,867,23.541,Wine_PerCapita,113
+Paraguay,Latin America and Caribbean,south,5.538,702,4.078,Beer_PerCapita,213
+Paraguay,Latin America and Caribbean,south,5.538,702,4.078,Spirit_PerCapita,117
+Paraguay,Latin America and Caribbean,south,5.538,702,4.078,Wine_PerCapita,74
+Romania,Central and Eastern Europe,north,5.528,807,9.532,Beer_PerCapita,297
+Romania,Central and Eastern Europe,north,5.528,807,9.532,Spirit_PerCapita,122
+Romania,Central and Eastern Europe,north,5.528,807,9.532,Wine_PerCapita,167
+Estonia,Central and Eastern Europe,north,5.517,868,17.737,Beer_PerCapita,224
+Estonia,Central and Eastern Europe,north,5.517,868,17.737,Spirit_PerCapita,194
+Estonia,Central and Eastern Europe,north,5.517,868,17.737,Wine_PerCapita,59
+Jamaica,Latin America and Caribbean,north,5.51,732,4.879,Beer_PerCapita,82
+Jamaica,Latin America and Caribbean,north,5.51,732,4.879,Spirit_PerCapita,97
+Jamaica,Latin America and Caribbean,north,5.51,732,4.879,Wine_PerCapita,9
+Croatia,Central and Eastern Europe,north,5.488,828,12.299,Beer_PerCapita,230
+Croatia,Central and Eastern Europe,north,5.488,828,12.299,Spirit_PerCapita,87
+Croatia,Central and Eastern Europe,north,5.488,828,12.299,Wine_PerCapita,254
+Turkey,Middle East and Northern Africa,north,5.389,787,10.863,Beer_PerCapita,51
+Turkey,Middle East and Northern Africa,north,5.389,787,10.863,Spirit_PerCapita,22
+Turkey,Middle East and Northern Africa,north,5.389,787,10.863,Wine_PerCapita,7
+Jordan,Middle East and Northern Africa,north,5.303,735,4.088,Beer_PerCapita,6
+Jordan,Middle East and Northern Africa,north,5.303,735,4.088,Spirit_PerCapita,21
+Jordan,Middle East and Northern Africa,north,5.303,735,4.088,Wine_PerCapita,1
+Azerbaijan,Central and Eastern Europe,north,5.291,757,3.881,Beer_PerCapita,21
+Azerbaijan,Central and Eastern Europe,north,5.291,757,3.881,Spirit_PerCapita,46
+Azerbaijan,Central and Eastern Europe,north,5.291,757,3.881,Wine_PerCapita,5
+Philippines,Southeastern Asia,north,5.279,696,2.951,Beer_PerCapita,71
+Philippines,Southeastern Asia,north,5.279,696,2.951,Spirit_PerCapita,186
+Philippines,Southeastern Asia,north,5.279,696,2.951,Wine_PerCapita,1
+China,Eastern Asia,noth,5.245,748,8.117,Beer_PerCapita,79
+China,Eastern Asia,noth,5.245,748,8.117,Spirit_PerCapita,192
+China,Eastern Asia,noth,5.245,748,8.117,Wine_PerCapita,8
+Kyrgyzstan,Central and Eastern Europe,north,5.185,669,1.22,Beer_PerCapita,31
+Kyrgyzstan,Central and Eastern Europe,north,5.185,669,1.22,Spirit_PerCapita,97
+Kyrgyzstan,Central and Eastern Europe,north,5.185,669,1.22,Wine_PerCapita,6
+Serbia,Central and Eastern Europe,north,5.177,785,5.426,Beer_PerCapita,283
+Serbia,Central and Eastern Europe,north,5.177,785,5.426,Spirit_PerCapita,131
+Serbia,Central and Eastern Europe,north,5.177,785,5.426,Wine_PerCapita,127
+Bosnia and Herzegovina,Central and Eastern Europe,north,5.163,766,4.809,Beer_PerCapita,76
+Bosnia and Herzegovina,Central and Eastern Europe,north,5.163,766,4.809,Spirit_PerCapita,173
+Bosnia and Herzegovina,Central and Eastern Europe,north,5.163,766,4.809,Wine_PerCapita,8
+Montenegro,Central and Eastern Europe,north,5.161,810,7.029,Beer_PerCapita,31
+Montenegro,Central and Eastern Europe,north,5.161,810,7.029,Spirit_PerCapita,114
+Montenegro,Central and Eastern Europe,north,5.161,810,7.029,Wine_PerCapita,128
+Dominican Republic,Latin America and Caribbean,north,5.155,733,6.794,Beer_PerCapita,193
+Dominican Republic,Latin America and Caribbean,north,5.155,733,6.794,Spirit_PerCapita,147
+Dominican Republic,Latin America and Caribbean,north,5.155,733,6.794,Wine_PerCapita,9
+Morocco,Middle East and Northern Africa,north,5.151,662,2.893,Beer_PerCapita,12
+Morocco,Middle East and Northern Africa,north,5.151,662,2.893,Spirit_PerCapita,6
+Morocco,Middle East and Northern Africa,north,5.151,662,2.893,Wine_PerCapita,10
+Hungary,Central and Eastern Europe,north,5.145,835,12.82,Beer_PerCapita,234
+Hungary,Central and Eastern Europe,north,5.145,835,12.82,Spirit_PerCapita,215
+Hungary,Central and Eastern Europe,north,5.145,835,12.82,Wine_PerCapita,185
+Lebanon,Middle East and Northern Africa,north,5.129,753,8.257,Beer_PerCapita,20
+Lebanon,Middle East and Northern Africa,north,5.129,753,8.257,Spirit_PerCapita,55
+Lebanon,Middle East and Northern Africa,north,5.129,753,8.257,Wine_PerCapita,31
+Portugal,Western Europe,north,5.123,845,19.872,Beer_PerCapita,194
+Portugal,Western Europe,north,5.123,845,19.872,Spirit_PerCapita,67
+Portugal,Western Europe,north,5.123,845,19.872,Wine_PerCapita,339
+Macedonia,Central and Eastern Europe,north,5.121,756,4.834,Beer_PerCapita,106
+Macedonia,Central and Eastern Europe,north,5.121,756,4.834,Spirit_PerCapita,27
+Macedonia,Central and Eastern Europe,north,5.121,756,4.834,Wine_PerCapita,86
+Vietnam,Southeastern Asia,north,5.061,689,2.171,Beer_PerCapita,111
+Vietnam,Southeastern Asia,north,5.061,689,2.171,Spirit_PerCapita,2
+Vietnam,Southeastern Asia,north,5.061,689,2.171,Wine_PerCapita,1
+Tunisia,Middle East and Northern Africa,north,5.045,732,3.689,Beer_PerCapita,51
+Tunisia,Middle East and Northern Africa,north,5.045,732,3.689,Spirit_PerCapita,3
+Tunisia,Middle East and Northern Africa,north,5.045,732,3.689,Wine_PerCapita,20
+Greece,Western Europe,north,5.033,868,17.882,Beer_PerCapita,133
+Greece,Western Europe,north,5.033,868,17.882,Spirit_PerCapita,112
+Greece,Western Europe,north,5.033,868,17.882,Wine_PerCapita,218
+Mongolia,Eastern Asia,noth,4.907,743,3.694,Beer_PerCapita,77
+Mongolia,Eastern Asia,noth,4.907,743,3.694,Spirit_PerCapita,189
+Mongolia,Eastern Asia,noth,4.907,743,3.694,Wine_PerCapita,8
+Nigeria,Sub-Saharan Africa,north,4.875,530,2.176,Beer_PerCapita,42
+Nigeria,Sub-Saharan Africa,north,4.875,530,2.176,Spirit_PerCapita,5
+Nigeria,Sub-Saharan Africa,north,4.875,530,2.176,Wine_PerCapita,2
+Honduras,Latin America and Caribbean,north,4.871,614,2.375,Beer_PerCapita,69
+Honduras,Latin America and Caribbean,north,4.871,614,2.375,Spirit_PerCapita,98
+Honduras,Latin America and Caribbean,north,4.871,614,2.375,Wine_PerCapita,2
+Zambia,Sub-Saharan Africa,south,4.795,586,1.263,Beer_PerCapita,32
+Zambia,Sub-Saharan Africa,south,4.795,586,1.263,Spirit_PerCapita,19
+Zambia,Sub-Saharan Africa,south,4.795,586,1.263,Wine_PerCapita,4
+Albania,Central and Eastern Europe,north,4.655,782,4.132,Beer_PerCapita,89
+Albania,Central and Eastern Europe,north,4.655,782,4.132,Spirit_PerCapita,132
+Albania,Central and Eastern Europe,north,4.655,782,4.132,Wine_PerCapita,54
+Sierra Leone,Sub-Saharan Africa,north,4.635,413,481,Beer_PerCapita,25
+Sierra Leone,Sub-Saharan Africa,north,4.635,413,481,Spirit_PerCapita,3
+Sierra Leone,Sub-Saharan Africa,north,4.635,413,481,Wine_PerCapita,2
+Namibia,Sub-Saharan Africa,south,4.574,645,4.561,Beer_PerCapita,376
+Namibia,Sub-Saharan Africa,south,4.574,645,4.561,Spirit_PerCapita,3
+Namibia,Sub-Saharan Africa,south,4.574,645,4.561,Wine_PerCapita,1
+Cameroon,Sub-Saharan Africa,south,4.513,553,1.375,Beer_PerCapita,147
+Cameroon,Sub-Saharan Africa,south,4.513,553,1.375,Spirit_PerCapita,1
+Cameroon,Sub-Saharan Africa,south,4.513,553,1.375,Wine_PerCapita,4
+South Africa,Sub-Saharan Africa,south,4.459,696,5.28,Beer_PerCapita,225
+South Africa,Sub-Saharan Africa,south,4.459,696,5.28,Spirit_PerCapita,76
+South Africa,Sub-Saharan Africa,south,4.459,696,5.28,Wine_PerCapita,81
+Egypt,Middle East and Northern Africa,north,4.362,694,3.548,Beer_PerCapita,6
+Egypt,Middle East and Northern Africa,north,4.362,694,3.548,Spirit_PerCapita,4
+Egypt,Middle East and Northern Africa,north,4.362,694,3.548,Wine_PerCapita,1
+Armenia,Central and Eastern Europe,north,4.36,749,3.606,Beer_PerCapita,21
+Armenia,Central and Eastern Europe,north,4.36,749,3.606,Spirit_PerCapita,179
+Armenia,Central and Eastern Europe,north,4.36,749,3.606,Wine_PerCapita,11
+Kenya,Sub-Saharan Africa,both,4.356,585,1.463,Beer_PerCapita,58
+Kenya,Sub-Saharan Africa,both,4.356,585,1.463,Spirit_PerCapita,22
+Kenya,Sub-Saharan Africa,both,4.356,585,1.463,Wine_PerCapita,2
+Ukraine,Central and Eastern Europe,north,4.324,746,2.186,Beer_PerCapita,206
+Ukraine,Central and Eastern Europe,north,4.324,746,2.186,Spirit_PerCapita,237
+Ukraine,Central and Eastern Europe,north,4.324,746,2.186,Wine_PerCapita,45
+Ghana,Sub-Saharan Africa,north,4.276,588,1.517,Beer_PerCapita,31
+Ghana,Sub-Saharan Africa,north,4.276,588,1.517,Spirit_PerCapita,3
+Ghana,Sub-Saharan Africa,north,4.276,588,1.517,Wine_PerCapita,10
+Dem. Rep. Congo,Sub-Saharan Africa,south,4.272,452,1.712,Beer_PerCapita,32
+Dem. Rep. Congo,Sub-Saharan Africa,south,4.272,452,1.712,Spirit_PerCapita,3
+Dem. Rep. Congo,Sub-Saharan Africa,south,4.272,452,1.712,Wine_PerCapita,1
+Georgia,Central and Eastern Europe,north,4.252,776,3.866,Beer_PerCapita,52
+Georgia,Central and Eastern Europe,north,4.252,776,3.866,Spirit_PerCapita,100
+Georgia,Central and Eastern Europe,north,4.252,776,3.866,Wine_PerCapita,149
+Rep. Congo,Sub-Saharan Africa,south,4.236,612,498,Beer_PerCapita,76
+Rep. Congo,Sub-Saharan Africa,south,4.236,612,498,Spirit_PerCapita,1
+Rep. Congo,Sub-Saharan Africa,south,4.236,612,498,Wine_PerCapita,9
+Senegal,Sub-Saharan Africa,north,4.219,499,953,Beer_PerCapita,9
+Senegal,Sub-Saharan Africa,north,4.219,499,953,Spirit_PerCapita,1
+Senegal,Sub-Saharan Africa,north,4.219,499,953,Wine_PerCapita,7
+Bulgaria,Central and Eastern Europe,north,4.217,810,7.469,Beer_PerCapita,231
+Bulgaria,Central and Eastern Europe,north,4.217,810,7.469,Spirit_PerCapita,252
+Bulgaria,Central and Eastern Europe,north,4.217,810,7.469,Wine_PerCapita,94
+Zimbabwe,Sub-Saharan Africa,south,4.193,532,1.029,Beer_PerCapita,64
+Zimbabwe,Sub-Saharan Africa,south,4.193,532,1.029,Spirit_PerCapita,18
+Zimbabwe,Sub-Saharan Africa,south,4.193,532,1.029,Wine_PerCapita,4
+Malawi,Sub-Saharan Africa,south,4.156,474,300,Beer_PerCapita,8
+Malawi,Sub-Saharan Africa,south,4.156,474,300,Spirit_PerCapita,11
+Malawi,Sub-Saharan Africa,south,4.156,474,300,Wine_PerCapita,1
+Gabon,Sub-Saharan Africa,south,4.121,698,7.079,Beer_PerCapita,347
+Gabon,Sub-Saharan Africa,south,4.121,698,7.079,Spirit_PerCapita,98
+Gabon,Sub-Saharan Africa,south,4.121,698,7.079,Wine_PerCapita,59
+Mali,Sub-Saharan Africa,north,4.073,421,780,Beer_PerCapita,5
+Mali,Sub-Saharan Africa,north,4.073,421,780,Spirit_PerCapita,1
+Mali,Sub-Saharan Africa,north,4.073,421,780,Wine_PerCapita,1
+Haiti,Latin America and Caribbean,north,4.028,496,735,Beer_PerCapita,1
+Haiti,Latin America and Caribbean,north,4.028,496,735,Spirit_PerCapita,326
+Haiti,Latin America and Caribbean,north,4.028,496,735,Wine_PerCapita,1
+Botswana,Sub-Saharan Africa,south,3.974,712,6.954,Beer_PerCapita,173
+Botswana,Sub-Saharan Africa,south,3.974,712,6.954,Spirit_PerCapita,35
+Botswana,Sub-Saharan Africa,south,3.974,712,6.954,Wine_PerCapita,35
+Comoros,Sub-Saharan Africa,south,3.956,502,775,Beer_PerCapita,1
+Comoros,Sub-Saharan Africa,south,3.956,502,775,Spirit_PerCapita,3
+Comoros,Sub-Saharan Africa,south,3.956,502,775,Wine_PerCapita,1
+Cote d'Ivoire,Sub-Saharan Africa,north,3.916,486,1.535,Beer_PerCapita,37
+Cote d'Ivoire,Sub-Saharan Africa,north,3.916,486,1.535,Spirit_PerCapita,1
+Cote d'Ivoire,Sub-Saharan Africa,north,3.916,486,1.535,Wine_PerCapita,7
+Cambodia,Southeastern Asia,north,3.907,576,1.27,Beer_PerCapita,57
+Cambodia,Southeastern Asia,north,3.907,576,1.27,Spirit_PerCapita,65
+Cambodia,Southeastern Asia,north,3.907,576,1.27,Wine_PerCapita,1
+Angola,Sub-Saharan Africa,south,3.866,577,3.309,Beer_PerCapita,217
+Angola,Sub-Saharan Africa,south,3.866,577,3.309,Spirit_PerCapita,57
+Angola,Sub-Saharan Africa,south,3.866,577,3.309,Wine_PerCapita,45
+Niger,Sub-Saharan Africa,north,3.856,351,368,Beer_PerCapita,3
+Niger,Sub-Saharan Africa,north,3.856,351,368,Spirit_PerCapita,2
+Niger,Sub-Saharan Africa,north,3.856,351,368,Wine_PerCapita,1
+Chad,Sub-Saharan Africa,north,3.763,405,651,Beer_PerCapita,15
+Chad,Sub-Saharan Africa,north,3.763,405,651,Spirit_PerCapita,1
+Chad,Sub-Saharan Africa,north,3.763,405,651,Wine_PerCapita,1
+Burkina Faso,Sub-Saharan Africa,north,3.739,420,614,Beer_PerCapita,25
+Burkina Faso,Sub-Saharan Africa,north,3.739,420,614,Spirit_PerCapita,7
+Burkina Faso,Sub-Saharan Africa,north,3.739,420,614,Wine_PerCapita,7
+Madagascar,Sub-Saharan Africa,south,3.695,517,402,Beer_PerCapita,26
+Madagascar,Sub-Saharan Africa,south,3.695,517,402,Spirit_PerCapita,15
+Madagascar,Sub-Saharan Africa,south,3.695,517,402,Wine_PerCapita,4
+Tanzania,Sub-Saharan Africa,south,3.666,533,878,Beer_PerCapita,36
+Tanzania,Sub-Saharan Africa,south,3.666,533,878,Spirit_PerCapita,6
+Tanzania,Sub-Saharan Africa,south,3.666,533,878,Wine_PerCapita,1
+Liberia,Sub-Saharan Africa,north,3.622,432,455,Beer_PerCapita,19
+Liberia,Sub-Saharan Africa,north,3.622,432,455,Spirit_PerCapita,152
+Liberia,Sub-Saharan Africa,north,3.622,432,455,Wine_PerCapita,2
+Benin,Sub-Saharan Africa,north,3.484,512,789,Beer_PerCapita,34
+Benin,Sub-Saharan Africa,north,3.484,512,789,Spirit_PerCapita,4
+Benin,Sub-Saharan Africa,north,3.484,512,789,Wine_PerCapita,13
+Togo,Sub-Saharan Africa,north,3.303,500,577,Beer_PerCapita,36
+Togo,Sub-Saharan Africa,north,3.303,500,577,Spirit_PerCapita,2
+Togo,Sub-Saharan Africa,north,3.303,500,577,Wine_PerCapita,19
+Syria,Middle East and Northern Africa,north,3.069,536,2.058,Beer_PerCapita,5
+Syria,Middle East and Northern Africa,north,3.069,536,2.058,Spirit_PerCapita,35
+Syria,Middle East and Northern Africa,north,3.069,536,2.058,Wine_PerCapita,16
