@@ -1,0 +1,67 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 400,
+  "height": 300,
+  "title": "Alcohol Servings and Happiness Scores by Continent",
+  "data": {
+    "url": "https://raw.githubusercontent.com/ntra0031/3179-repo/main/HappinessAlcoholConsumption_longformat.csv"
+  },
+  "transform": [
+    {
+      "lookup": "Country",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/4_interactive_scatter_plot/data/COVID_19_10_Oct_2020.csv"
+        },
+        "key": "Country",
+        "fields": ["Continent"]
+      }
+    },
+    {"filter": "datum.Continent != null"}
+  ],
+  "layer": [
+    {
+      "mark": "circle",
+      "encoding": {
+        "x": {
+          "field": "Servings",
+          "aggregate": "sum",
+          "title": "Total Servings",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "HappinessScore",
+          "title": "Happiness Score",
+          "type": "quantitative"
+        },
+        "color": {"field": "Continent", "type": "nominal"},
+        "tooltip": [
+          {"field": "Country", "type": "nominal"},
+          {
+            "field": "Servings",
+            "aggregate": "sum",
+            "type": "quantitative",
+            "format": ","
+          },
+          {"field": "HappinessScore", "type": "quantitative"}
+        ]
+      }
+    },
+    {
+      "transform": [
+        {"filter": "datum.Country == 'Bulgaria'"},
+        {
+          "calculate": "'The majority of countries on the lower end of the Happiness Scale are in Africa'",
+          "as": "text_annotation"
+        }
+      ],
+      "mark": {"type": "text", "dx": -20, "dy": 60, "fontStyle": "italic"},
+      "encoding": {
+        "text": {
+          "calculate": "'The majority of countries on the lower end of the Happiness Scale are in Africa'",
+          "field": "text_annotation"
+        }
+      }
+    }
+  ]
+}

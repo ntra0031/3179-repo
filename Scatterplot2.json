@@ -1,0 +1,69 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 400,
+  "height": 300,
+  "title": "Employment Rates and Alcohol Consumption by Continent",
+  "data": {
+    "url": "https://raw.githubusercontent.com/ntra0031/3179-repo/main/gapminder_alcohol.csv"
+  },
+  "transform": [
+    {
+      "lookup": "country",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/4_interactive_scatter_plot/data/COVID_19_10_Oct_2020.csv"
+        },
+        "key": "Country",
+        "fields": ["Continent"]
+      }
+    },
+    {"filter": "datum.Continent != null"},
+    {"filter": "datum.alcconsumption > 0.1"},
+    {"filter": "datum.employrate > 0"}
+  ],
+  "layer": [
+    {
+      "mark": "circle",
+      "encoding": {
+        "x": {
+          "field": "alcconsumption",
+          "aggregate": "sum",
+          "title": "Estimated Average Alcohol Consumption (litres)",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "employrate",
+          "title": "Employment Rate (% of population 15 +)",
+          "type": "quantitative"
+        },
+        "color": {"field": "Continent", "type": "nominal"},
+        "tooltip": [
+          {"field": "country", "type": "nominal"},
+          {
+            "field": "alcconsumption",
+            "aggregate": "sum",
+            "type": "quantitative",
+            "format": ","
+          },
+          {"field": "employrate", "type": "quantitative"}
+        ]
+      }
+    },
+    {
+      "transform": [
+        {"filter": "datum.country == 'Uganda'"},
+        {
+          "calculate": "'Uganda has high employment but also a high alcohol consumption rate!'",
+          "as": "text_annotation"
+        }
+      ],
+      "mark": {"type": "text", "dx": 30, "dy": -140, "fontStyle": "italic"},
+      "encoding": {
+        "text": {
+          "calculate": "'Uganda has high employment but also a high alcohol consumption rate!'",
+          "field": "text_annotation"
+        }
+      }
+    }
+  ]
+}

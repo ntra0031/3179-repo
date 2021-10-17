@@ -1,0 +1,44 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 1000,
+  "title": "Distribution of Alcohol Types by Continent",
+"height": 600,
+"data": {"url": "https://raw.githubusercontent.com/ntra0031/3179-repo/main/drinktypes_longformat.csv"},
+"transform": [{
+  "lookup": "country",
+  "from": {
+    "data": {"url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/4_interactive_scatter_plot/data/COVID_19_10_Oct_2020.csv"},
+    "key": "Country",
+    "fields": ["Continent"]
+  }
+},
+{"filter": "datum.Continent != null"}],
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "Continent",
+      "type": "nominal",
+      "title": "Continent",
+      "axis": {"labelAngle": 0}
+    },
+    "y": {
+      "field": "servings",
+      "aggregate": "sum",
+      "type": "quantitative",
+      "title": "Servings"
+    },
+    "color": {
+      "field": "drink_type",
+      "type": "nominal",
+      "scale": {
+        "domain": ["beer_servings", "wine_servings", "spirit_servings"],
+        "range": ["#D891EF", "#CCFB5D", "#E78A61"]
+      },
+      "title": "Drink Type"
+    },
+    "tooltip": [
+      {"field": "Continent", "type": "nominal"},
+      {"field": "servings","aggregate": "sum", "type": "quantitative", "format": ",", "title": "Total servings"}
+    ]
+  }
+}

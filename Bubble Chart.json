@@ -1,0 +1,62 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Life Expectancy and Adult Mortality by Alcohol Consumption and Year",
+    "width": 1000,
+    "height": 600,
+    "data": {"url": "https://raw.githubusercontent.com/ntra0031/3179-repo/main/Life%20Expectancy%20Data.csv"},
+    "transform": [{
+    "lookup": "Country",
+    "from": {
+      "data": {"url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/4_interactive_scatter_plot/data/COVID_19_10_Oct_2020.csv"},
+      "key": "Country",
+      "fields": ["Continent"]
+    }
+  },
+  {"filter": "Year_selection == null || datum.Year == Year_selection"},
+  {"filter": "datum.Alcohol > 0.1"},
+  {"filter": "datum.Continent != null"}],
+  "params": [
+      {
+          "name": "Year_selection",
+          "value": 2014,
+          "bind": {
+          "input": "range",
+          "min": 2000,
+          "max": 2014,
+          "step": 1,
+          "name": "Year: "
+          }
+          }
+    ],
+    "mark": "circle",
+    "encoding": {
+      "x": {
+        "field": "Alcohol",
+        "type": "quantitative",
+        "title": "Alcohol, recorded per capita (15+) consumption (in litres of pure alcohol)",
+        "scale": {"domain": [0,18]}
+      },
+      "y": {
+        "field": "Life expectancy ",
+        "type": "quantitative",
+        "title": "Life Expectancy in age"
+      },
+      "color": {"field": "Continent", "type": "nominal"},
+      "size": {
+        "field": "Adult Mortality", 
+        "type": "quantitative",
+        "scale": {
+"type": "threshold",
+"domain": [100, 200, 300, 400, 500],
+"range": [50, 100, 150, 200, 250, 350]
+},
+"legend": {"format": ".1s"}},
+      "tooltip": [
+        {"field": "Country", "type": "nominal"},
+        {"field": "Year", "type": "ordinal"},
+        {"field": "Alcohol", "type": "quantitative", "format": ","},
+        {"field": "Life expectancy ", "type": "quantitative", "format": ","},
+        {"field": "Adult Mortality", "type": "quantitative", "format": ","}
+      ]
+    }
+  }

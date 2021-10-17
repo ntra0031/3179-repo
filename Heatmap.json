@@ -1,0 +1,37 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "https://raw.githubusercontent.com/ntra0031/3179-repo/main/gapminder_alcohol.csv"},
+    "title": "Alcohol Consumption and Urban Rates",
+    "transform": [{
+      "filter": {"and": [
+        {"field": "alcconsumption", "valid": true},
+        {"field": "urbanrate", "valid": true}
+      ]}
+    }],
+    "mark": "rect",
+    "width": 1000,
+    "height": 400,
+    "encoding": {
+      "x": {
+        "bin": {"maxbins":30},
+        "field": "alcconsumption",
+        "type": "quantitative",
+        "title": "Alcohol, recorded per capita (15+) consumption (in litres of pure alcohol)"
+      },
+      "y": {
+        "bin": {"maxbins": 15},
+        "field": "urbanrate",
+        "type": "quantitative",
+        "title": "Urban Rate (% of population living in urban areas)"
+      },
+      "color": {
+        "aggregate": "count",
+        "type": "quantitative"
+      }
+    },
+    "config": {
+      "view": {
+        "stroke": "transparent"
+      }
+    }
+  }
