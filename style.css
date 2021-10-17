@@ -1,3 +1,7 @@
+.background {
+    background-color: rgb(246, 255, 255);
+}
+
 .padding {
   padding-top: 50px;
   padding-right: 80px;
@@ -15,9 +19,9 @@ h1{
 h2{
     font-family: Arial;
     text-align: center;
-    font-size: 20px;
-    padding-left: 200px;
-    padding-right: 200px;
+    font-size: 15px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 .top {
@@ -30,72 +34,106 @@ h2{
 
 #map {
     padding-top: 50px; 
-    padding-bottom: 50px;
     padding-left: 50px;
     padding-right: 50px;
-    box-shadow: 0 0 15px rgb(63, 100, 156);
 }
 
 #mapdesc {
     font-family: Helvetica, sans-serif;
-    padding-top: 50px; 
     padding-bottom: 50px;
     padding-left: 500px;
     padding-right: 500px;
+    text-align: center;
 }
 
 #stackedchart{
     padding-top: 50px; 
-    padding-bottom: 50px;
     padding-left: 50px;
     padding-right: 50px;
 }
 
-#plotdesc {
+#chartdesc {
     font-family: Helvetica, sans-serif;
-    padding-top: 50px; 
     padding-bottom: 50px;
     padding-left: 500px;
     padding-right: 500px;
-}
+    text-align: center;
+} 
 
-#plot {
+#bubble {
     padding-top: 50px; 
-    padding-bottom: 50px;
     padding-left: 50px;
     padding-right: 50px;
-    box-shadow: 0 0 15px rgb(63, 100, 156);
 }
 
-.donuts {
+#bubbledesc {
+    font-family: Helvetica, sans-serif; 
+    padding-bottom: 50px;
+    padding-left: 500px;
+    padding-right: 500px;
+    text-align: center;
+}
+
+#heatmap{
+    padding-top: 50px; 
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#heatmapdesc {
+    font-family: Helvetica, sans-serif;
+    padding-bottom: 50px;
+    padding-left: 500px;
+    padding-right: 500px;
+    text-align: center;
+}
+
+.scatterplots {
     padding-top: 50px; 
     padding-bottom: 50px;
     justify-content: space-evenly;
 }
 
-#beerdonut {
+#scatterplot {
     float:left; 
-    width:33%;
-    height:280px;
-    padding-bottom: 50px;
-}
-#winedonut{
-    float:left; 
-    width:33%;
-    height:280px;
-    padding-bottom: 50px;
-}
-#spiritdonut{
-    float:right;
-    width:33%;
+    width:50%;
     height:280px;
     padding-bottom: 50px;
 }
 
-#middesc {
-    font-family: Helvetica, sans-serif;
+#scatterplot2 {
+    float:right; 
+    width:50%;
+    height:280px;
+    padding-bottom: 50px;
+}
+
+.bottomdesc {
     padding-top: 50px; 
     padding-bottom: 50px;
-    padding-left: 500px;
-    padding-right: 500px;
+    justify-content: space-evenly;
+}
+
+#plot1desc {
+    float:left; 
+    width:30%;
+    height:280px;
+    padding-bottom: 50px;
+    padding-left: 290px;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+#plot2desc {
+    float:right; 
+    width:30%;
+    height:280px;
+    padding-bottom: 50px;
+    padding-right: 320px;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+#footer {
+    font-family: Helvetica, sans-serif;
 }
